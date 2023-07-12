@@ -1,0 +1,373 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	;
+}
+
+header {
+	display: flex;
+	position: fixed;
+	background: #f2f2f2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	justify-content: space-around;
+	transition: 0.7s;
+	padding: 20px 20px;
+}
+
+header .logo {
+	position: relative;
+	color: #e848bb;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+	letter-spacing: 2px;
+	transition: 1.5s;
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header ul {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header ul li {
+	list-style: none;
+}
+
+header ul li a {
+	position: relative;
+	font-family: Arial, sans-serif;
+	margin: 0 15px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-weight: 600;
+	transition: 0.4s;
+
+}
+
+
+nav a:hover {
+	color: #e848bb;
+	padding: 5px;
+}
+
+/*
+nav a {
+	color: inherit;
+	text-decoration: none;
+  }
+  
+ nav a {
+	background:
+	  linear-gradient(
+		to right,
+		#f2f2f2,
+		#f2f2f2
+	  ),
+	  linear-gradient(
+		to right,
+		#FC4970,
+		#E33264,
+		#FA5A93
+	);
+	background-size: 100% 3px, 0 3px;
+	background-position: 100% 100%, 0 100%;
+	background-repeat: no-repeat;
+	transition: background-size 400ms;
+	padding: 5px;
+  }
+  
+ nav a:hover {
+	background-size: 0 3px, 100% 3px;
+  }
+
+
+
+nav a:hover {
+	padding: 5px;
+	box-shadow: inset 200px 0 0 0  #e848bb;
+	color: white;
+	border-radius: 15px;
+}
+*/
+
+.encabezado-img {
+	background-image: url(img/imagen-fondo.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+
+.encabezado-img a {
+	border: 0;
+	background-color: #e848bb;
+	color: white;
+	display: flex;
+	border-radius: 3px;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 6px 13px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.encabezado-img h1 {
+	font-size: 50px;
+	text-align: center;
+	padding: 15px 0px 50px;
+}
+
+.somos-ada{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	display: flex;
+	padding: 40px;
+}
+
+.imagen-somos-ada {
+	width: 635px;
+    margin-right: 100px;
+    height: 777px;
+    object-fit: none;
+	align-self: center;
+}
+
+.parrafo-somos-ada {
+	font-family: Arial, sans-serif;
+	font-weight: small;
+	color: grey;
+	font-size: 22px;
+	padding-top: 20px;
+}
+.texto-somos-ada {
+	font-family: Arial, sans-serif;
+	align-self: center;
+	padding: 90px;
+	font-size: larger;
+	font-size: 30px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+.texto-somos-ada span {
+	color: #e848bb;
+}
+
+.container{
+	padding: 50px 0px 100px 0px;
+	background-color: #1e1e1e;
+}
+
+.cards-conteiner{
+	display: flex; 
+	flex-flow: nowrap;   
+	justify-content: space-evenly;
+	align-content: center;
+	align-items: center;
+	padding-top: 150px;
+	}
+
+.cards-tittle{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+	background-color: #1e1e1e;
+	font-family: Arial, sans-serif;
+	font-weight: bolder;
+	margin-top: 100px;
+
+	
+}
+.card{
+    width: 376px;
+    height: 600px;
+    border-radius: 50px;
+    overflow: hidden;
+    background: #323232;
+    box-shadow: 0px 1px 10px 15px rgba(0,0,0,0.2);
+    cursor: default;
+}
+
+
+.card .contenido-card{
+    padding: 15px;
+    text-align: center;
+}
+.cards-conteiner h3{
+    color: white;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.front-card{
+    background-color: #00000080;
+    background-image: url(img/figuratres.jpg);
+    background-blend-mode: color;
+    width: 380px;
+    height: 177px;
+    background-position: center;
+    background-size: cover;
+}
+
+.fullstack-card{
+	background-color: #00000080;
+    background-image: url(img/full-stack.jpg);
+    background-blend-mode: color;
+    width: 380px;
+    height: 177px;
+    background-position: center;
+    background-size: cover;
+}
+
+.python-card{
+	background-color: #00000080;
+    background-image: url(img/python-cropped.jpg);
+    background-blend-mode: color;
+    width: 380px;
+    height: 177px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card img{
+    width: 100%;
+    height: 150px;
+	opacity: 70%;
+	position: relative;
+}
+.card .contenido-card p{
+    line-height: 1.2;
+    color: white;
+    font-size: 15px;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	font-size: large;
+}
+.card .contenido-card a{
+   display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+	color: white;
+	font-weight: bold;
+    text-decoration: none;
+    background-color: #e848bb;
+    border: 1px solid  #e848bb;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+}
+
+.flex-container {
+  flex-wrap: wrap;
+}
+
+.seccion-caracteristicas {
+	display:flex;
+	flex: column;
+	align-items: center;
+	margin: auto 15px;
+	justify-content: space-around;
+	padding: 50px;
+	height: 700px;
+}
+
+
+.lista-vineta{
+	display: flex;
+	flex-direction: column;
+	justify-content: baseline;
+	align-items:flex-start;
+	font-size:20px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+}
+
+
+.lista-vineta li {  /*selecciona cada componete (li) de la lista (lista vineta)*/
+	list-style-type: none; /*este sirve para que se borren los puntotos que vienen por defecto*/
+	padding: 0px 40px;  /*este es el padding entre la viñeta y el texto*/
+	background-image: url(img/tildeverde.png); /*imagen*/
+	background-size: 30px; /*tamano de la vineta*/
+	background-repeat: no-repeat; /*esto sirve par aque no se repitan la imagen*/ 
+	margin: 15px;
+}
+
+#aplica-ya{
+    background-color:#f26ed5;
+	color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    flex-direction: column;
+	padding-top: 140px;
+    height: 50vh;
+   	font-family: Arial, sans-serif;
+	font-size: 50px;
+}
+.boton-aplica-ya{
+
+    display: inline-block;
+    padding: 10px;
+    margin-top: 55px;
+    color: white;
+    font-weight: bolder;
+    background-color: #f26ed5;
+    border: 1px solid #f26ed5;
+    border-radius: 7px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 9px 0px #41313c;
+    width: 246px;
+    height: 67px;
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+	text-decoration: none;
+}
+
+footer{
+	display: flex;
+	justify-content: right;
+}
+
+footer div h2 {
+	font-family: Arial, sans-serif;
+	color: gray;
+	font-weight: lighter;
+	font-size: x-large;
+	}
+
+	@media (max-width: 610px) {
+.seccion-caracteristicas{
+	display: flex;
+	flex-direction: column;
+}
+}
+	
